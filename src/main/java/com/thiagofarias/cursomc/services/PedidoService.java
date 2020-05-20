@@ -73,6 +73,7 @@ public class PedidoService {
 		
 		
 		ipRepo.saveAll(obj.getItens());
+		System.out.println(obj);
 		return obj;
 		
 	}
